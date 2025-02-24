@@ -1,0 +1,17 @@
+.child {
+  padding: 10px;
+  font-size: 20px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent {
+  background-color: blue;
+  height: 80vh;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}

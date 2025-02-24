@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Seleektoren</title>
+    <style>
+      p {
+        color: green;
+        font-size: 24px;
+      }
+      p.klasse {
+        color: red;
+      }
+
+      p,
+      .klasse {
+        font-weight: bold;
+      }
+
+      #test {
+        color: blue;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="" />
+  </head>
+
+  <body>
+    <p class="klasse">
+      Dies ist ein Beispiel! mit einer Klasse. In der Klasse wird mit einem
+      Punkt gestartet im Style Tag.
+    </p>
+    <p>Dies ist ein Beispiel!</p>
+    <p>Dies ist ein Beispiel!</p>
+    <p>Dies ist ein Beispiel!</p>
+    <p>Dies ist ein Beispiel!</p>
+    <span class="klasse">Dies ist ein weiterer Text!</span><br />
+    <span id="test">Dies ist ein weiterer Text mit einer Id.</span>
+  </body>
+</html>

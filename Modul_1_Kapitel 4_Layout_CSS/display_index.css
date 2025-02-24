@@ -1,0 +1,11 @@
+div {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: orange;
+  display: flex; /* wie soll das angezeigt werden*/
+}
+
+.hide {
+  display: none;
+}

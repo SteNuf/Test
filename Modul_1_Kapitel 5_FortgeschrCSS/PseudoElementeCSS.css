@@ -1,0 +1,42 @@
+.child {
+  padding: 40px;
+  font-size: 20px;
+  background-color: orange;
+  /*display: flex;
+      align-items: center;
+      justify-content: center;*/
+}
+
+.parent {
+  background-color: blue;
+  height: 80vh;
+  padding: 20px;
+  display: flex; /* Muss immer in den Eltern div eingefügt werden*/
+  /* Abstand zwischen den Elementen*/
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Pseudo-Elemente  nur dann wenn man keine weiteren HTML Möglichkeiten hat*/
+.child::before {
+  content: "";
+  display: inline-block;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.child::after {
+  content: "Cio";
+  background-color: red;
+}
+
+input {
+  padding: 40px;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: red;
+}
