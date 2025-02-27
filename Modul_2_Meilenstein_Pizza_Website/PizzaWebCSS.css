@@ -16,15 +16,15 @@
 
 .name {
   color: white;
-  font-size: 500%;
+  font-size: 2000%;
   text-align: center;
   padding-top: 16%;
-  padding-bottom: 0%;
+  padding-bottom: 01%;
 }
 
 .undertitle {
   color: rgb(214, 202, 202);
-  font-size: 200%;
+  font-size: 600%;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -33,7 +33,7 @@
 
 .callToAction {
   color: white;
-  font-size: 150%;
+  font-size: 500%;
   font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 3%;
@@ -80,7 +80,14 @@
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 350%;
+    padding-top: 400%;
+    border-style: 1% solid;
+    border-color: red;
+    background-color: red;
+    margin: 0 auto;
+    padding: 6%;
+
+    width: 50%;
   }
 }
 
