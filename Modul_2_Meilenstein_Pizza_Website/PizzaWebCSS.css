@@ -15,7 +15,10 @@
 }
 
 .name {
+  display: flex;
+  justify-content: center;
   color: white;
+  align-items: center;
   font-size: 2000%;
   text-align: center;
   padding-top: 16%;
@@ -43,9 +46,21 @@
   margin: 0 auto;
   padding: 1%;
   width: 14%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  box-shadow: 0 0 0 0;
 }
 
-@media screen and (max-width: 45em) {
+.callToAction:hover {
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: red;
+  border-style: 1px solid;
+  color: red;
+}
+
+@media screen and (max-width: 1000px) {
   .hero {
     height: 100vh;
     background-image: linear-gradient(#070707c7, #0808089f), url(hero.jpg);
@@ -56,7 +71,7 @@
 
   .name {
     color: white;
-    font-size: 500%;
+    font-size: 10vw;
     text-align: center;
     justify-content: center;
     flex-direction: column;
@@ -86,7 +101,6 @@
     background-color: red;
     margin: 0 auto;
     padding: 6%;
-
     width: 50%;
   }
 }
