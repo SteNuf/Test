@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+  color: white;
+
+  --primary-color: #ff3030;
+  --text-color: #ddd;
+}
+
+.hero {
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#07070762, #08080860), url("HeroVDSt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 4rem;
+  line-height: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--text-color);
+}
+
+.hero-action {
+  margin-top: 30rem;
+}
+.button,
+.button-inverted {
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: 1px solid var(--primary-color);
+  color: #fff;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-inverted {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.button-inverted:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
