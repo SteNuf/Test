@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: black;
@@ -10,6 +14,29 @@ body {
 
   --primary-color: #ff3030;
   --text-color: #ddd;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 5rem;
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  color: var(--primary-color);
 }
 
 .hero {
